@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C4_5 
+REMARK    2  A    between atoms: C4_5  and  C5_6 
+REMARK    3  A    between atoms: C9_11  and  N2_12 
+REMARK    4  A    between atoms: N2_12  and  C10_13 
+ROOT
+HETATM    1  C5  UNL     1       1.372  -0.130  -1.844  1.00  0.00    -0.011 C 
+HETATM    2  C6  UNL     1       0.930   1.121  -2.071  1.00  0.00    -0.014 C 
+HETATM    3  C7  UNL     1      -0.447   1.611  -2.320  1.00  0.00     0.051 C 
+HETATM    4  C8  UNL     1      -0.968   2.369  -1.148  1.00  0.00     0.112 C 
+HETATM    5  N1  UNL     1      -0.967   1.293  -0.451  1.00  0.00    -0.154 NA
+HETATM    6  C9  UNL     1      -1.333   1.047   0.875  1.00  0.00     0.188 A 
+HETATM    7  N3  UNL     1      -1.649   0.230   0.006  1.00  0.00    -0.277 N 
+HETATM    8  C12 UNL     1      -2.316  -0.973  -0.102  1.00  0.00     0.147 C 
+HETATM    9  C13 UNL     1      -1.522  -2.145  -0.568  1.00  0.00     0.029 C 
+HETATM   10  C14 UNL     1      -0.780  -2.010  -1.847  1.00  0.00     0.085 C 
+HETATM   11  C15 UNL     1       0.455  -1.230  -1.804  1.00  0.00     0.155 C 
+HETATM   12  O1  UNL     1       1.254  -2.216  -1.559  1.00  0.00    -0.293 OA
+ENDROOT
+BRANCH   1  13
+HETATM   13  C4  UNL     1       2.844  -0.274  -1.632  1.00  0.00     0.093 C 
+BRANCH  13  14
+HETATM   14  C3  UNL     1       3.193  -0.818  -0.301  1.00  0.00     0.012 C 
+HETATM   15  C2  UNL     1       3.948  -0.116   0.538  1.00  0.00    -0.011 C 
+HETATM   16  C1  UNL     1       4.413  -0.461   1.894  1.00  0.00     0.037 C 
+HETATM   17 CL1  UNL     1       2.954  -2.219   0.704  1.00  0.00    -0.089 Cl
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   6  18
+HETATM   18  N2  UNL     1      -1.268   1.559   2.191  1.00  0.00    -0.365 N 
+HETATM   19  H11 UNL     1      -0.562   2.318   2.110  1.00  0.00     0.162 HD
+BRANCH  18  20
+HETATM   20  C10 UNL     1      -2.221   0.733   2.904  1.00  0.00     0.118 C 
+HETATM   21  C11 UNL     1      -3.652   0.967   2.490  1.00  0.00     0.026 C 
+ENDBRANCH  18  20
+ENDBRANCH   6  18
+TORSDOF 4

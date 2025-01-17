@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_2  and  C2_3 
+REMARK    2  A    between atoms: C6_9  and  N3_10 
+REMARK    3  A    between atoms: C14_19  and  O2_20 
+ROOT
+HETATM    1  C2  UNL     1       3.246   0.366  -0.407  1.00  0.00     0.102 C 
+HETATM    2  C3  UNL     1       3.252  -0.325  -1.591  1.00  0.00     0.059 C 
+HETATM    3  C4  UNL     1       2.068  -0.564  -2.249  1.00  0.00     0.121 C 
+HETATM    4  N1  UNL     1       1.305  -1.474  -1.630  1.00  0.00    -0.254 NA
+HETATM    5  C5  UNL     1       0.008  -1.701  -1.989  1.00  0.00     0.234 C 
+HETATM    6  N2  UNL     1      -0.699  -2.077  -0.907  1.00  0.00    -0.225 NA
+HETATM    7  C6  UNL     1      -0.891  -1.176   0.095  1.00  0.00     0.128 C 
+HETATM    8  C12 UNL     1       0.192  -0.687   0.797  1.00  0.00     0.053 C 
+HETATM    9  C13 UNL     1       1.207   0.202   1.101  1.00  0.00     0.043 C 
+HETATM   10  C14 UNL     1       2.506   0.003   0.668  1.00  0.00     0.099 C 
+ENDROOT
+BRANCH   7  11
+HETATM   11  N3  UNL     1      -2.187  -0.725   0.436  1.00  0.00    -0.348 N 
+HETATM   12  C7  UNL     1      -2.399   0.232   1.496  1.00  0.00     0.130 C 
+HETATM   13  C8  UNL     1      -3.788   0.815   1.461  1.00  0.00     0.047 C 
+HETATM   14  C9  UNL     1      -4.220   0.923   0.052  1.00  0.00    -0.026 C 
+HETATM   15  C10 UNL     1      -4.029  -0.027  -0.848  1.00  0.00     0.006 C 
+HETATM   16  C11 UNL     1      -3.324  -1.241  -0.300  1.00  0.00     0.181 C 
+HETATM   17 BR1  UNL     1      -4.504  -2.263   0.837  1.00  0.00    -0.064 Br
+ENDBRANCH   7  11
+BRANCH  10  18
+HETATM   18  O2  UNL     1       2.760  -0.742   1.814  1.00  0.00    -0.358 OA
+HETATM   19  H16 UNL     1       3.450  -1.488   1.725  1.00  0.00     0.217 HD
+ENDBRANCH  10  18
+BRANCH   1  20
+HETATM   20  O1  UNL     1       3.674   1.403   0.377  1.00  0.00    -0.353 OA
+HETATM   21  C1  UNL     1       4.602   2.318  -0.185  1.00  0.00     0.210 C 
+ENDBRANCH   1  20
+TORSDOF 3

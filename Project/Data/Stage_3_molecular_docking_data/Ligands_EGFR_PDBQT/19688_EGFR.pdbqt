@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C5_5 
+REMARK    2  A    between atoms: C6_6  and  C7_7 
+REMARK    3  A    between atoms: C11_15  and  C12_16 
+ROOT
+HETATM    1  C7  UNL     1       0.568   0.785   0.021  1.00  0.00     0.061 C 
+HETATM    2  N1  UNL     1       0.904   1.994  -0.245  1.00  0.00    -0.183 NA
+HETATM    3  N2  UNL     1      -0.167   2.877  -0.271  1.00  0.00    -0.298 N 
+HETATM    4  C8  UNL     1      -1.314   2.052  -0.472  1.00  0.00     0.176 C 
+HETATM    5  S1  UNL     1      -2.742   2.778   0.365  1.00  0.00    -0.112 SA
+HETATM    6  C9  UNL     1      -4.187   2.009  -0.350  1.00  0.00     0.071 C 
+HETATM    7  C10 UNL     1      -4.570   0.774  -0.494  1.00  0.00     0.142 C 
+HETATM    8  O1  UNL     1      -3.945  -0.399  -0.117  1.00  0.00    -0.356 OA
+HETATM    9  C11 UNL     1      -2.720  -1.040  -0.039  1.00  0.00     0.146 C 
+HETATM   10  C14 UNL     1      -1.534  -0.344  -0.589  1.00  0.00     0.048 C 
+HETATM   11  C15 UNL     1      -0.919   0.736   0.217  1.00  0.00     0.076 C 
+HETATM   12  H10 UNL     1      -0.217   3.899  -0.177  1.00  0.00     0.183 HD
+ENDROOT
+BRANCH   1  13
+HETATM   13  C6  UNL     1       1.526  -0.338   0.106  1.00  0.00     0.030 C 
+HETATM   14  C5  UNL     1       2.821  -0.460  -0.038  1.00  0.00     0.008 C 
+BRANCH  14  15
+HETATM   15  C3  UNL     1       4.000   0.331  -0.336  1.00  0.00    -0.066 C 
+HETATM   16  C2  UNL     1       5.238  -0.204  -0.396  1.00  0.00    -0.024 C 
+HETATM   17  C1  UNL     1       5.385  -1.656  -0.146  1.00  0.00     0.036 C 
+HETATM   18  C4  UNL     1       3.942   1.806  -0.603  1.00  0.00     0.048 C 
+ENDBRANCH  14  15
+ENDBRANCH   1  13
+BRANCH   9  19
+HETATM   19  C12 UNL     1      -2.496  -1.748   1.285  1.00  0.00     0.107 C 
+HETATM   20  C13 UNL     1      -3.590  -2.814   1.468  1.00  0.00     0.029 C 
+HETATM   21 CL1  UNL     1      -2.679  -0.672   2.686  1.00  0.00    -0.123 Cl
+ENDBRANCH   9  19
+TORSDOF 3

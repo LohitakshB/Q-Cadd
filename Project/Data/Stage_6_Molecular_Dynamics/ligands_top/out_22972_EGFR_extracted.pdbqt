@@ -1,0 +1,41 @@
+ROOT
+HETATM    1  C1  UNL     1      29.803  -1.065  53.499  1.00  0.00     0.091 C 
+HETATM    2  C2  UNL     1      28.597  -1.407  53.108  1.00  0.00    -0.174 C 
+HETATM    3  C3  UNL     1      27.331  -1.632  52.862  1.00  0.00     0.097 C 
+ENDROOT
+BRANCH   3   4
+HETATM    4  C4  UNL     1      26.409  -0.506  52.924  1.00  0.00     0.148 C 
+BRANCH   4   5
+HETATM    5  C5  UNL     1      27.120   0.678  53.474  1.00  0.00     0.001 C 
+HETATM    6  C6  UNL     1      27.079   1.826  52.833  1.00  0.00    -0.001 C 
+BRANCH   6   7
+HETATM    7  C7  UNL     1      26.341   1.976  51.574  1.00  0.00     0.016 C 
+HETATM    8  C8  UNL     1      26.392   3.086  50.867  1.00  0.00     0.083 C 
+BRANCH   8   9
+HETATM    9  N1  UNL     1      25.687   3.257  49.631  1.00  0.00    -0.393 N 
+HETATM   10  H9  UNL     1      25.994   3.051  48.635  1.00  0.00     0.159 HD
+BRANCH   9  11
+HETATM   11  C9  UNL     1      24.353   3.807  49.890  1.00  0.00     0.178 C 
+BRANCH  11  12
+HETATM   12  C10 UNL     1      23.301   2.785  49.610  1.00  0.00     0.051 A 
+HETATM   13  C11 UNL     1      22.755   2.069  50.658  1.00  0.00     0.029 A 
+HETATM   14  C12 UNL     1      21.792   1.136  50.350  1.00  0.00     0.003 A 
+HETATM   15  C13 UNL     1      21.417   0.959  49.032  1.00  0.00     0.019 A 
+HETATM   16  C14 UNL     1      21.999   1.707  48.015  1.00  0.00     0.117 A 
+HETATM   17  N2  UNL     1      22.943   2.619  48.328  1.00  0.00    -0.264 NA
+ENDBRANCH  11  12
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+ENDBRANCH   4   5
+BRANCH   4  18
+HETATM   18  N3  UNL     1      25.239  -0.728  53.751  1.00  0.00    -0.271 N 
+HETATM   19  C15 UNL     1      23.960  -0.512  53.119  1.00  0.00     0.125 C 
+HETATM   20  C16 UNL     1      22.935  -0.266  53.884  1.00  0.00    -0.006 C 
+HETATM   21  C17 UNL     1      22.788  -1.037  54.948  1.00  0.00     0.034 C 
+HETATM   22  C18 UNL     1      24.046  -1.285  55.683  1.00  0.00     0.140 C 
+HETATM   23  N4  UNL     1      25.188  -1.128  55.084  1.00  0.00    -0.185 NA
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+TORSDOF 7
+ENDMDL
